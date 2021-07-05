@@ -170,7 +170,7 @@ const _nav =  [
         _tag: 'CSidebarNavItem',
         name: 'Item List',
         icon: 'cil-puzzle',
-        to: '/base/cards',
+        to: '/Items/ItemList',
       },
       {
         _tag: 'CSidebarNavItem',

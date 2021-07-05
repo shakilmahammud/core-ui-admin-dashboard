@@ -1,1 +1,8 @@
 // Here you can add other styles
+.borderNone{
+    border:none !important;
+    outline:none !important;
+    &:focus{
+        outline:none !important;
+    }
+}
