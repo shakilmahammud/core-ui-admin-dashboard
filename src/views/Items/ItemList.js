@@ -80,6 +80,8 @@ const ItemList = () => {
             <CDataTable
               items={usersData}
               fields={fields}
+           
+               tableFilter
               hover
               striped
               bordered

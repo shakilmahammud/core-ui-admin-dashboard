@@ -153,7 +153,7 @@ export const NewItems = () => {
                   <CFormGroup>
                     <CLabel htmlFor="textarea-input">Description</CLabel>
                     <CTextarea id="textarea-input" placeholder="Enter your city" row="6" />
-                   
+              
                   </CFormGroup>
                 </CCol>
                 <CCol xs="4">

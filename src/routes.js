@@ -1,6 +1,10 @@
 import React from 'react';
+import CategoryList from './views/Items/CategoryList';
 import ItemList from './views/Items/ItemList';
+import { NewBand } from './views/Items/NewBand';
+import NewCategory from './views/Items/NewCategory';
 import { NewItems } from './views/Items/NewItems';
+import BrandList from './views/Items/BrandList';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -50,7 +54,11 @@ const routes = [
   // { path: '/base/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
   { path: '/Items/NewItems', name:`Items Add / Update Items`, component: NewItems },
   { path: '/Items/ItemList', name:`View/Search Items`, component: ItemList },
-  // { path: '/base/cards', name: 'Cards', component: Cards },
+  { path: '/Items/NewCategory', name:`Category/Add`, component: NewCategory },
+  { path: '/Items/CategoryList', name:`Category List/Search Items`, component: CategoryList },
+  { path: '/Items/NewBand', name:`Category Band Add / Updates`, component: NewBand },
+  { path: '/Items/BrandList', name:`Band View/ Search Items Band`, component: BrandList },
+
   // { path: '/base/carousels', name: 'Carousel', component: Carousels },
   // { path: '/base/collapses', name: 'Collapse', component: Collapses },
   // { path: '/base/forms', name: 'Forms', component: BasicForms },
