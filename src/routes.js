@@ -5,6 +5,7 @@ import { NewBand } from './views/Items/NewBand';
 import NewCategory from './views/Items/NewCategory';
 import { NewItems } from './views/Items/NewItems';
 import BrandList from './views/Items/BrandList';
+import { Import } from './views/Items/Import';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -58,6 +59,7 @@ const routes = [
   { path: '/Items/CategoryList', name:`Category List/Search Items`, component: CategoryList },
   { path: '/Items/NewBand', name:`Category Band Add / Updates`, component: NewBand },
   { path: '/Items/BrandList', name:`Band View/ Search Items Band`, component: BrandList },
+  { path: '/Items/Import', name:`Import Items Add/Update Brand`, component: Import },
 
   // { path: '/base/carousels', name: 'Carousel', component: Carousels },
   // { path: '/base/collapses', name: 'Collapse', component: Collapses },

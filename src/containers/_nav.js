@@ -206,7 +206,7 @@ const _nav =  [
         _tag: 'CSidebarNavItem',
         name: 'Import Items',
         icon: 'cil-puzzle',
-        to: '/Items/ImportItems',
+        to: '/Items/Import',
       },
     ],
   },
