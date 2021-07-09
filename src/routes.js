@@ -6,6 +6,12 @@ import NewCategory from './views/Items/NewCategory';
 import { NewItems } from './views/Items/NewItems';
 import BrandList from './views/Items/BrandList';
 import { Import } from './views/Items/Import';
+import { NewSuppliers } from './views/Suppliers/NewSuppliers';
+import SuppliesList from './views/Suppliers/SuppliesList';
+import { ImportSuppliers } from './views/Suppliers/ImportSuppliers';
+import { ExpensesList } from './views/Expenses/ExpensesList';
+import { ExpensesCategory } from './views/Expenses/ExpensesCategory';
+import { ExpensesCategoryList } from './views/Expenses/ExpensesCategoryList';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -53,6 +59,9 @@ const routes = [
   // { path: '/theme/typography', name: 'Typography', component: Typography },
   // { path: '/base', name: 'Base', component: Cards, exact: true },
   // { path: '/base/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
+  { path: '/Suppliers/NewSuppliers', name:`Suppliers Add/Update Suppliers`, component: NewSuppliers },
+  { path: '/Suppliers/SuppliersList', name:`Suppliers List View/Search Suppliers`, component: SuppliesList},
+  { path: '/Suppliers/ImportSuppliers', name:`Import Suppliers Add/Update Brand`, component: ImportSuppliers},
   { path: '/Items/NewItems', name:`Items Add / Update Items`, component: NewItems },
   { path: '/Items/ItemList', name:`View/Search Items`, component: ItemList },
   { path: '/Items/NewCategory', name:`Category/Add`, component: NewCategory },
@@ -60,7 +69,9 @@ const routes = [
   { path: '/Items/NewBand', name:`Category Band Add / Updates`, component: NewBand },
   { path: '/Items/BrandList', name:`Band View/ Search Items Band`, component: BrandList },
   { path: '/Items/Import', name:`Import Items Add/Update Brand`, component: Import },
-
+  { path: '/Expenses/ExpensesList', name:`Expenses List View/Search Expenses`, component: ExpensesList },
+  { path: '/Expenses/ExpensesCategory', name:`Expense Category Add/Update Expense Category`, component: ExpensesCategory },
+  { path: '/Expenses/ExpensesCategoryList', name:`Expense Category List`, component: ExpensesCategoryList },
   // { path: '/base/carousels', name: 'Carousel', component: Carousels },
   // { path: '/base/collapses', name: 'Collapse', component: Collapses },
   // { path: '/base/forms', name: 'Forms', component: BasicForms },
