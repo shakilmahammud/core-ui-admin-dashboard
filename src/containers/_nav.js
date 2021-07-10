@@ -80,7 +80,7 @@ const _nav =  [
         _tag: 'CSidebarNavItem',
         name: 'New Customer',
         icon: 'cil-puzzle',
-        to: '/base/breadcrumbs',
+        to: '/Customers/NewCustomer',
       },
       {
         _tag: 'CSidebarNavItem',

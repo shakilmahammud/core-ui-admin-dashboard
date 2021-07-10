@@ -12,6 +12,7 @@ import { ImportSuppliers } from './views/Suppliers/ImportSuppliers';
 import { ExpensesList } from './views/Expenses/ExpensesList';
 import { ExpensesCategory } from './views/Expenses/ExpensesCategory';
 import { ExpensesCategoryList } from './views/Expenses/ExpensesCategoryList';
+import { NewCustomer } from './views/Customers/NewCustomer';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -59,6 +60,7 @@ const routes = [
   // { path: '/theme/typography', name: 'Typography', component: Typography },
   // { path: '/base', name: 'Base', component: Cards, exact: true },
   // { path: '/base/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
+  { path: '/Customers/NewCustomer', name:`Customers Add/Update Customer`, component: NewCustomer },
   { path: '/Suppliers/NewSuppliers', name:`Suppliers Add/Update Suppliers`, component: NewSuppliers },
   { path: '/Suppliers/SuppliersList', name:`Suppliers List View/Search Suppliers`, component: SuppliesList},
   { path: '/Suppliers/ImportSuppliers', name:`Import Suppliers Add/Update Brand`, component: ImportSuppliers},
