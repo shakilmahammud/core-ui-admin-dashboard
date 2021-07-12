@@ -36,79 +36,79 @@ export const NewCustomer = () => {
             <CFormGroup row className="my-0">
             <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Items Name</CLabel>
+                    <CLabel htmlFor="postal-code" >Customer Name*</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="items name" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >SKU</CLabel>
+                    <CLabel htmlFor="postal-code" >Opening Balance</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="items name" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Mobile</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Country</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Email</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >State</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Phone</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >City</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Brand</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Postcode</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Model</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Address</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
                 <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Alert Quantity</CLabel>
+                    <CLabel htmlFor="postal-code" >Plate No</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="Alert Quantity" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
@@ -116,7 +116,7 @@ export const NewCustomer = () => {
                 <CFormGroup row className="my-0">
             <CCol xs="6">
                   <CFormGroup>
-                    <CLabel htmlFor="postal-code" >Items Name</CLabel>
+                    <CLabel htmlFor="postal-code" >VIN No</CLabel>
                     <CInput name="itemsName" id="postal-code" placeholder="items name" onChange={handleValue} defaultValue=""/>
                   </CFormGroup>
                 </CCol>
