@@ -106,7 +106,7 @@ const _nav =  [
         _tag: 'CSidebarNavItem',
         name: 'New Purchase',
         icon: 'cil-puzzle',
-        to: '/base/breadcrumbs',
+        to: '/Purchase/NewPurchase',
       },
       {
         _tag: 'CSidebarNavItem',

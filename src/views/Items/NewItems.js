@@ -14,7 +14,7 @@ import {
     CTextarea
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
-import { cifAU,cilImagePlus } from '@coreui/icons';
+
 
 
 export const NewItems = () => {
