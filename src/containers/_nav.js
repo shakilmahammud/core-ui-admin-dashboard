@@ -112,13 +112,13 @@ const _nav =  [
         _tag: 'CSidebarNavItem',
         name: 'Purchase List',
         icon: 'cil-puzzle',
-        to: '/base/cards',
+        to: '/Purchase/PurchaseList',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'New Purchase Return',
         icon: 'cil-puzzle',
-        to: '/base/carousels',
+        to: '/Purchase/NewPurchaseReturn',
       },
       {
         _tag: 'CSidebarNavItem',
