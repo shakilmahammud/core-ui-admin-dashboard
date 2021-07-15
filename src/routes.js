@@ -18,6 +18,11 @@ import { ImportCustomers } from './views/Customers/ImportCustomers';
 import { NewPurchase } from './views/Purchase/NewPurchase';
 import { NewPurchaseReturn } from './views/Purchase/NewPurchaseReturn';
 import { PurchaseList } from './views/Purchase/PurchaseList';
+import { PurChaseReturnList } from './views/Purchase/PurChaseReturnList';
+import { NewSalesReturn } from './views/Sales/NewSalesReturn';
+import { SalesReturnList } from './views/Sales/SalesReturnList';
+import { NewSales } from './views/Sales/NewSales';
+import { SalesList } from './views/Sales/SalesList';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -65,10 +70,16 @@ const routes = [
   // { path: '/theme/typography', name: 'Typography', component: Typography },
   // { path: '/base', name: 'Base', component: Cards, exact: true },
   // { path: '/base/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
+  { path: '/Sales/NewSales', name:`Customers Add/Update Customer`, component: NewSales },
+  { path: '/Sales/SalesList', name:`Customers Add/Update Customer`, component: SalesList },
+  { path: '/Sales/NewSalesReturn', name:`Customers Add/Update Customer`, component: NewSalesReturn },
+  { path: '/Sales/SalesReturnList', name:`Customers Add/Update Customer`, component: SalesReturnList },
+  { path: '/Purchase/NewPurchase', name:`Customers Add/Update Customer`, component: NewPurchase },
   { path: '/Purchase/NewPurchase', name:`Customers Add/Update Customer`, component: NewPurchase },
   { path: '/Purchase/NewPurchaseReturn', name:`Customers Add/Update Customer`, component: NewPurchaseReturn },
   { path: '/Purchase/PurchaseList', name:`Customers Add/Update Customer`, component: PurchaseList },
   { path: '/Purchase/NewPurchaseReturn', name:`Customers Add/Update Customer`, component: NewPurchaseReturn },
+  { path: '/Purchase/PurChaseReturnList', name:`Customers Add/Update Customer`, component: PurChaseReturnList },
   { path: '/Customers/NewCustomer', name:`Customers Add/Update Customer`, component: NewCustomer },
   { path: '/Customers/CustomersList', name:`Customers List View/Search Customers`, component: CustomersList },
   { path: '/Customers/ImportCustomers', name:`Import Customers Add/Update Brand`, component: ImportCustomers },
