@@ -23,6 +23,11 @@ import { NewSalesReturn } from './views/Sales/NewSalesReturn';
 import { SalesReturnList } from './views/Sales/SalesReturnList';
 import { NewSales } from './views/Sales/NewSales';
 import { SalesList } from './views/Sales/SalesList';
+import { NewCountry } from './views/Places/NewCountry';
+import { CountriesList } from './views/Places/CountriesList';
+import { NewState } from './views/Places/NewState';
+import { StateList } from './views/Places/StateList';
+import { NewUser } from './views/users/NewUser';
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -96,6 +101,11 @@ const routes = [
   { path: '/Expenses/ExpensesList', name:`Expenses List View/Search Expenses`, component: ExpensesList },
   { path: '/Expenses/ExpensesCategory', name:`Expense Category Add/Update Expense Category`, component: ExpensesCategory },
   { path: '/Expenses/ExpensesCategoryList', name:`Expense Category List`, component: ExpensesCategoryList },
+  { path: '/Places/NewCountry', name:`Country Add/Update Country`, component: NewCountry },
+  { path: '/Places/CountriesList', name:`Countries List View/Search Countries`, component: CountriesList },
+  { path: '/Places/NewState', name:`State Add/Update State`, component: NewState },
+  { path: '/Places/StateList', name:`States List View/Search States`, component: StateList },
+  { path: '/users/NewUser', name:`Create User Enter User Information`, component: NewUser },
   // { path: '/base/carousels', name: 'Carousel', component: Carousels },
   // { path: '/base/collapses', name: 'Collapse', component: Collapses },
   // { path: '/base/forms', name: 'Forms', component: BasicForms },
